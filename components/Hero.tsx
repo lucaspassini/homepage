@@ -1,6 +1,7 @@
 import Image from 'next/legacy/image';
-import { FaLocationArrow } from 'react-icons/fa';
+import Link from 'next/link';
 import { hero } from '../data/config';
+import { FaLocationArrow } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
@@ -54,14 +55,16 @@ export default function Hero(): JSX.Element {
           )}
         </button>
       </div>
-      <span className="text-xs inline-block py-1 px-2.5 leading-none text-center border-2  border-zinc-200 border-opacity-5 whitespace-nowrap align-baseline font-bold bg-zinc-100 dark:bg-neutral-800 text-gray-700  dark:text-white rounded-xl mt-8 ">
-        <p className="flex items-center h-5 gap-2">
+      <span className="text-xs inline-block py-1 px-2.5 leading-none text-center border-2  border-zinc-400 border-opacity-5 whitespace-nowrap align-baseline font-bold bg-zinc-100 hover:bg-zinc-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 text-gray-700  dark:text-white rounded-xl mt-8 ">
+        <Link
+          href="https://www.google.com.br/maps/place/Itatiba,+State+of+S%C3%A3o+Paulo/@-22.9972518,-46.8994737,12z/data=!4m5!3m4!1s0x94cf2a851d59a719:0x1993f2010972ec6d!8m2!3d-23.0116344!4d-46.8375899"
+          className="flex items-center h-5 gap-2 dark:text-greyText"
+        >
           <FaLocationArrow />
           Itatiba, BR •
-        </p>
+        </Link>
       </span>
       <h1 className="mt-4 mb-4">{hero.title}</h1>
-
       <p className="text-lg">{hero.desc}</p>
     </div>
   );

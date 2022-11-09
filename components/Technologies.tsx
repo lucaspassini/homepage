@@ -17,7 +17,7 @@ export default function Technologies(): JSX.Element {
           {technologies.title}
         </h2>
       </div>
-      <div className="flex flex-wrap w-full -m-2 mb-14">
+      <div className="flex flex-wrap w-full mb-20 -m-2">
         <ListItem>
           <SiJavaScript />
           <p>JavaScript</p>

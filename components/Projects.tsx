@@ -15,11 +15,11 @@ export default function Projects(): JSX.Element {
           return (
             <div
               key={index}
-              className="p-6 mb-4 transition-all border shadow-xl rounded-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-100 hover:bg-zinc-100 hover:dark:bg-neutral-700 duration-30 bg-zinc-50 dark:bg-neutral-800 border-opacity-10 dark:shadow-xl dark:shadow-neutral-800 hover:dark:shadow-600 border-greyText"
+              className="p-5 mb-4 transition-all border shadow-xl rounded-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-100 hover:bg-zinc-100 hover:dark:bg-neutral-700 duration-30 bg-zinc-50 dark:bg-neutral-800 border-opacity-10 dark:shadow-xl dark:shadow-neutral-800 border-greyText hover:dark:shadow-neutral-700"
             >
-              <h3 className=" decoration-zinc-500">{item.title}</h3>
+              <h3 className="mb-1 decoration-zinc-500">{item.title}</h3>
               <p>{item.description}</p>
-              <div className="flex flex-wrap items-center pt-5 -m-3">
+              <div className="flex flex-wrap pt-5 pb-1 -m-3">
                 {item.link && (
                   <a
                     href={item.link}
