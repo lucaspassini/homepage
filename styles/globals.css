@@ -1,26 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply bg-white dark:bg-dark text-lightText dark:text-greyText;
+  line-height: 1.8rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold text-dark dark:text-white;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-base;
+}
 a {
-  color: inherit;
-  text-decoration: none;
+  @apply text-lightText dark:text-darkText;
 }
 
 * {
   box-sizing: border-box;
 }
+ul {
+  list-style: decimal;
+}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.landingSectionTitle::before {
+  content: '';
+  position: absolute;
+  left: 110%;
+  right: 0px;
+  top: 50%;
+  height: 2px;
+  width: 100vw;
+  opacity: 0.2;
+  @apply bg-greyText dark:bg-neutral-600;
 }

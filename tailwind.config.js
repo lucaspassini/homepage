@@ -1,8 +1,26 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  mode: 'jit',
+  purge: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Inter', 'system-ui', 'sans']
+    },
+    extend: {
+      colors: {
+        dark: '#18181A',
+        white: '#FFFFFF',
+        grey: '#BDBDBD',
+        lightText: '#333333',
+        darkText: '#FFFFFF',
+        greyText: '#BABABA',
+        lightBorder: '#1A202C',
+        darkBorder: '#A4A5A7'
+      }
+    }
   },
-  plugins: [],
-}
+  variants: {
+    extend: {}
+  },
+  plugins: []
+};
