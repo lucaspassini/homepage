@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { projects } from '../data/config';
 
 export default function Projects(): JSX.Element {
@@ -23,14 +23,14 @@ export default function Projects(): JSX.Element {
                 {item.link && (
                   <a
                     href={item.link}
-                    className="flex items-center px-3 py-1"
+                    className="flex px-3 py-1"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image
                       src="/static/icons/link.svg"
-                      width={24}
-                      height={24}
+                      width={26}
+                      height={26}
                       alt="Link icon"
                     />
                   </a>
@@ -38,15 +38,15 @@ export default function Projects(): JSX.Element {
                 {item.github && (
                   <a
                     href={`https://github.com/${item.github}`}
-                    className="flex items-center px-1 py-1"
+                    className="flex px-1 py-1"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image
                       className="text-white stroke-current"
                       src="/static/icons/github.svg"
-                      width={24}
-                      height={24}
+                      width={26}
+                      height={26}
                       alt="Link icon"
                     />
                   </a>

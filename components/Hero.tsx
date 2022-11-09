@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { FaLocationArrow } from 'react-icons/fa';
 import { hero } from '../data/config';
 import { useState, useEffect } from 'react';
@@ -54,10 +54,10 @@ export default function Hero(): JSX.Element {
           )}
         </button>
       </div>
-      <span className="text-xs inline-block py-1 px-2.5 leading-none text-center border-2  border-gray-300 border-opacity-5 whitespace-nowrap align-baseline font-bold bg-zinc-100 dark:bg-neutral-800 text-gray-700  dark:text-white rounded-xl mt-8 ">
+      <span className="text-xs inline-block py-1 px-2.5 leading-none text-center border-2  border-zinc-200 border-opacity-5 whitespace-nowrap align-baseline font-bold bg-zinc-100 dark:bg-neutral-800 text-gray-700  dark:text-white rounded-xl mt-8 ">
         <p className="flex items-center h-5 gap-2">
           <FaLocationArrow />
-          Itatiba, BR
+          Itatiba, BR •
         </p>
       </span>
       <h1 className="mt-4 mb-4">{hero.title}</h1>

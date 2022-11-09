@@ -1,22 +1,26 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { contact } from '../data/config';
 
 export default function Stack(): JSX.Element {
   return (
     <div>
       <div className="w-full overflow-x-hidden">
-        <h2 className="relative mx-0 mb-8 text-left landingSectionTitle max-w-max md:w-max "></h2>
+        <h2 className="relative mx-0 mb-4 text-left landingSectionTitle max-w-max md:w-max "></h2>
       </div>
-      <p className="text-defaultText">
-        Send me an email:{' '}
-        <a
-          className="text-black hover:underline dark:text-white"
-          href={`mailto:${contact.email}`}
-        >
-          {contact.email}
-        </a>
-      </p>
-      <div className="flex mt-5 space-x-5">
+      <div className="flex mt-5 space-x-4">
+        {contact.email && (
+          <a
+            className="text-black hover:underline dark:text-white"
+            href={`mailto:${contact.email}`}
+          >
+            <Image
+              src="/static/icons/email.svg"
+              width={30}
+              height={30}
+              alt="LinkedIn icon"
+            />
+          </a>
+        )}
         {contact.github && (
           <a
             href={`https://github.com/${contact.github}`}
@@ -25,8 +29,8 @@ export default function Stack(): JSX.Element {
           >
             <Image
               src="/static/icons/github.svg"
-              width={25}
-              height={25}
+              width={30}
+              height={30}
               alt="Github icon"
             />
           </a>
@@ -40,8 +44,8 @@ export default function Stack(): JSX.Element {
           >
             <Image
               src="/static/icons/twitter.svg"
-              width={25}
-              height={25}
+              width={30}
+              height={30}
               alt="Twitter icon"
             />
           </a>
@@ -54,8 +58,8 @@ export default function Stack(): JSX.Element {
           >
             <Image
               src="/static/icons/linkedin.svg"
-              width={25}
-              height={25}
+              width={30}
+              height={30}
               alt="LinkedIn icon"
             />
           </a>
