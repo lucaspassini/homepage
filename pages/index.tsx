@@ -18,7 +18,7 @@ export default function Index() {
 
         <meta
           name="theme-color"
-          content="#18181A"
+          content="#111111"
           media="(prefers-color-scheme: dark)"
         />
       </Head>
