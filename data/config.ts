@@ -9,23 +9,23 @@ export const hero = {
 };
 
 export const projects = {
-  title: 'Projects 💻',
+  title: 'Projects',
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
-      title: 'homepage',
+      title: '🏠 homepage',
       description: 'This personal homepage',
       link: 'https://lucaspassini.dev',
       github: 'lucaspassini/homepage'
     },
     {
-      title: 'react-meals',
+      title: '🍝 react-meals',
       description: 'A food ordering web-app',
       link: 'https://passini-reactmeals.vercel.app',
       github: 'lucaspassini/react-meals'
     },
     {
-      title: 'expense-tracker',
+      title: '📊 expense-tracker',
       description: 'An expense tracker web-app',
       link: 'https://passini-expensetracker.vercel.app',
       github: 'lucaspassini/expense-tracker'
@@ -34,7 +34,7 @@ export const projects = {
 };
 
 export const technologies = {
-  title: 'Technologies 🚀',
+  title: 'Technologies',
   desc: 'I use a wide range of tools to resolve each problem in the most efficient way.'
 };
 
