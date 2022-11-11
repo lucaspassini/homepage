@@ -3,7 +3,7 @@ import { projects } from '../data/config';
 
 export default function Projects(): JSX.Element {
   return (
-    <div className="">
+    <div>
       <div className="w-full overflow-x-hidden">
         <h2 className="relative mx-0 mb-4 text-left border-b-4 dark:border-neutral-700 max-w-max md:w-max">
           {projects.title}
@@ -15,11 +15,11 @@ export default function Projects(): JSX.Element {
           return (
             <div
               key={index}
-              className="p-5 mb-4 transition-all border shadow-xl rounded-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-100 hover:bg-zinc-100 hover:dark:bg-neutral-700 duration-30 bg-zinc-50 dark:bg-neutral-800 border-opacity-10 dark:shadow-xl dark:shadow-neutral-800 border-greyText hover:dark:shadow-neutral-700"
+              className="p-5 mb-4 transition-all border shadow-xl rounded-xl hover:shadow-2xl hover:-translate-y-1 hover:scale-10 hover:bg-zinc-200 hover:dark:bg-neutral-700 duration-30 bg-zinc-100 dark:bg-neutral-800 border-opacity-10 dark:shadow-xl dark:shadow-neutral-800 border-greyText hover:dark:shadow-neutral-700"
             >
               <h3 className="mb-1 decoration-zinc-500">{item.title}</h3>
               <p>{item.description}</p>
-              <div className="flex flex-wrap pt-5 pb-1 -m-3">
+              <div className="flex flex-wrap pt-5 pb-1 -m-4">
                 {item.link && (
                   <a
                     href={item.link}

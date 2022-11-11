@@ -14,7 +14,7 @@ export default function Hero(): JSX.Element {
   return (
     <div className="mb-20">
       <div className="flex flex-row items-center justify-between w-full">
-        <div className="relative w-20 h-20 overflow-hidden rounded-full">
+        <div className="relative w-20 h-20 overflow-hidden rounded">
           <Image
             src="/static/profile.png"
             layout="fill"

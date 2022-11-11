@@ -14,19 +14,19 @@ export const projects = {
   projects: [
     {
       title: 'homepage',
-      description: 'This personal homepage.',
+      description: 'This personal homepage',
       link: 'https://lucaspassini.dev',
       github: 'lucaspassini/homepage'
     },
     {
       title: 'react-meals',
-      description: 'A food ordering web app.',
+      description: 'A food ordering web-app',
       link: 'https://passini-reactmeals.vercel.app',
       github: 'lucaspassini/react-meals'
     },
     {
       title: 'expense-tracker',
-      description: 'A tracker for expense purposes.',
+      description: 'An expense tracker web-app',
       link: 'https://passini-expensetracker.vercel.app',
       github: 'lucaspassini/expense-tracker'
     }
