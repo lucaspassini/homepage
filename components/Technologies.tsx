@@ -13,11 +13,11 @@ export default function Technologies(): JSX.Element {
   return (
     <div>
       <div className="w-full overflow-x-hidden">
-        <h2 className="relative mx-0 mb-6 text-left border-b-4 dark:border-neutral-700 max-w-max md:w-max ">
+        <h2 className="relative mx-0 mb-4 text-left border-b-4 dark:border-neutral-700 max-w-max md:w-max ">
           {technologies.title}
         </h2>
       </div>
-      <div className="flex flex-wrap w-full mb-20 -m-2">
+      <div className="flex flex-wrap w-full mb-24 -m-2">
         <ListItem>
           <SiJavaScript />
           <p>JavaScript</p>
