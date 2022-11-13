@@ -57,16 +57,16 @@ export default function Hero(): JSX.Element {
           )}
         </button>
       </div>
-      <span className="text-xs inline-block py-1 px-2.5 leading-none text-center border border-zinc-400 border-opacity-5 whitespace-nowrap align-baseline font-bold bg-zinc-100 hover:bg-zinc-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 text-gray-700  dark:text-white rounded-lg mt-16 ">
+      <span className="inline-block px-2 py-1 mt-16 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg border-zinc-400 border-opacity-5 whitespace-nowrap bg-zinc-100 hover:bg-zinc-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 dark:text-white ">
         <Link
           href="https://www.google.com.br/maps/place/Itatiba,+State+of+S%C3%A3o+Paulo/@-22.9972518,-46.8994737,12z/data=!4m5!3m4!1s0x94cf2a851d59a719:0x1993f2010972ec6d!8m2!3d-23.0116344!4d-46.8375899"
           className="flex items-center h-5 gap-2 dark:text-greyText"
         >
-          <FaLocationArrow />
+          <FaLocationArrow className="w-3" />
           Itatiba, BR •
         </Link>
       </span>
-      <h1 className="mt-4 mb-4">{hero.title}</h1>
+      <h1 className="mt-4 mb-4 sm:text-3xl md:text-4xl">{hero.title}</h1>
       <p className="text-lg">{hero.desc}</p>
     </div>
   );
