@@ -1,19 +1,15 @@
+
 <img src="public/static/favicon/favicon.ico" width="48"/>
   
-## Homepage
+# homepage [![Author](https://img.shields.io/badge/author-lucaspassini-lightgrey)](https://github.com/lucaspassini) [![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/stargazers) [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/network/members)
 
-[![Author](https://img.shields.io/badge/author-lucaspassini-191F2B?style=flat-square)](https://github.com/lucaspassini)
-[![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/stargazers)
-[![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/network/members)
+<img src="https://user-images.githubusercontent.com/47937044/202001095-6c28976e-d96c-4a7a-999a-69766d4b34cb.png" width="650" alt="homepage dark" />
 
-<img src="https://user-images.githubusercontent.com/47937044/202001095-6c28976e-d96c-4a7a-999a-69766d4b34cb.png" width="700" alt="homepage dark" />
-
-
-## 📕 About
+## About
 
 My minimalist personal homepage.
 
-## 🧑🏻‍💻 Installation
+## Installation
 
 Clone the repository and run the development server:
 
@@ -24,14 +20,14 @@ $ yarn
 $ yarn run dev
 ```
 
-## 💻 Technologies
+## Technologies
 
 - [React.js](https://beta.reactjs.org/)
 - [Next.js](https://nextjs.org/docs/getting-started)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Vercel](https://vercel.com/docs)
 
-## 🚀 Deployment
+## Deployment
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
