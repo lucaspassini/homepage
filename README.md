@@ -9,7 +9,7 @@
 
 My minimalist personal homepage.
 
-## Installation
+## Install
 
 Clone the repository and run the development server:
 
