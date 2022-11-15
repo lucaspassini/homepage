@@ -6,7 +6,8 @@
 [![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/stargazers)
 [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/network/members)
 
-<img src="https://user-images.githubusercontent.com/47937044/200196678-aabda57e-5dbd-4e4a-b65e-528442fd50ab.png" width="700" alt="homepage dark" />
+<img src="https://user-images.githubusercontent.com/47937044/202001095-6c28976e-d96c-4a7a-999a-69766d4b34cb.png" width="700" alt="homepage dark" />
+
 
 ## 📕 About
 
