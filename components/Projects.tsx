@@ -23,7 +23,7 @@ export default function Projects() {
                 {item.link && (
                   <a
                     href={item.link}
-                    className="flex px-3 py-1"
+                    className="flex items-start px-3 py-1"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -38,7 +38,7 @@ export default function Projects() {
                 {item.github && (
                   <a
                     href={`https://github.com/${item.github}`}
-                    className="flex py-1"
+                    className="flex px-3 py-1"
                     target="_blank"
                     rel="noreferrer"
                   >

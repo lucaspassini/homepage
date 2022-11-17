@@ -22,6 +22,20 @@ export default class MyDocument extends Document {
             href="/static/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/static/favicon/site.webmanifest" />
+          <meta
+            name="description"
+            content="I am a front-end developer and designer, crafting clean and functional solutions."
+          />
+          <meta
+            name="theme-color"
+            content="#F5F5F5"
+            media="(prefers-color-scheme: light)"
+          />
+          <meta
+            name="theme-color"
+            content="#1C1C1C"
+            media="(prefers-color-scheme: dark)"
+          />
         </Head>
         <body>
           <Main />

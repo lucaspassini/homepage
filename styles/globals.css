@@ -54,6 +54,6 @@ ul {
   top: 50%;
   height: 2px;
   width: 100vw;
-  opacity: 0.2;
-  @apply bg-greyText dark:bg-neutral-600;
+  opacity: 0.1;
+  @apply bg-neutral-400 dark:bg-neutral-500;
 }
