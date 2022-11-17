@@ -12,13 +12,13 @@ export default function Index() {
         <title>{meta.title}</title>
         <meta
           name="theme-color"
-          content="#FFFFFF"
+          content="#F5F5F5"
           media="(prefers-color-scheme: light)"
         />
 
         <meta
           name="theme-color"
-          content="#111111"
+          content="#1C1C1C"
           media="(prefers-color-scheme: dark)"
         />
       </Head>

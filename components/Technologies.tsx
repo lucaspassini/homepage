@@ -1,4 +1,3 @@
-import ListItem from './ListItem';
 import { technologies } from '../data/config';
 import {
   SiJavascript as SiJavaScript,
@@ -19,30 +18,30 @@ export default function Technologies(): JSX.Element {
         <p className="mb-8 text-lg">{technologies.desc}</p>
       </div>
       <div className="flex flex-wrap w-full mb-24 -m-2">
-        <ListItem>
+        <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiJavaScript />
           <p>JavaScript</p>
-        </ListItem>
-        <ListItem>
+        </span>
+        <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiTypescript />
           <p>TypeScript</p>
-        </ListItem>
-        <ListItem>
+        </span>
+        <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiReactJS />
           <p>ReactJS</p>
-        </ListItem>
-        <ListItem>
+        </span>
+        <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiNextJS />
           <p>NextJS</p>
-        </ListItem>
-        <ListItem>
+        </span>
+        <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiTailwindCSS />
           <p>TailwindCSS</p>
-        </ListItem>
-        <ListItem>
+        </span>
+        <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiGit />
           <p>Git</p>
-        </ListItem>
+        </span>
       </div>
     </div>
   );
