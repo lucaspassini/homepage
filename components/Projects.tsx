@@ -1,7 +1,7 @@
 import Image from 'next/legacy/image';
 import { projects } from '../data/config';
 
-export default function Projects(): JSX.Element {
+export default function Projects() {
   return (
     <div>
       <div className="w-full overflow-x-hidden">

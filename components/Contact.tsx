@@ -1,7 +1,7 @@
 import Image from 'next/legacy/image';
 import { contact } from '../data/config';
 
-export default function Stack(): JSX.Element {
+export default function Stack() {
   return (
     <div>
       <div className="w-full overflow-x-hidden">

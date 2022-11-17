@@ -5,7 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
-export default function Hero(): JSX.Element {
+export default function Hero() {
   const [mounted, setMounted] = useState(false);
   const { resolvedTheme, setTheme } = useTheme();
 

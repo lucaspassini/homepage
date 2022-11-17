@@ -8,7 +8,7 @@ import {
   SiTypescript
 } from 'react-icons/si';
 
-export default function Technologies(): JSX.Element {
+export default function Technologies() {
   return (
     <div>
       <div className="w-full overflow-x-hidden">
