@@ -8,14 +8,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        dark: '#111111',
-        white: '#FFFFFF',
+        dark: '#1C1C1C',
+        white: '#F5F5F5',
         grey: '#BDBDBD',
         lightText: '#333333',
         darkText: '#FFFFFF',
-        greyText: '#BABABA',
+        greyText: '#E5E5E5',
         lightBorder: '#1A202C',
-        darkBorder: '#A4A5A7'
+        darkBorder: '#A4A5A7',
+        greyBorder: '#6f6f6f',
+        lightCard: '#FFFF'
       }
     }
   },

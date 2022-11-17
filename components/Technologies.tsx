@@ -16,6 +16,7 @@ export default function Technologies(): JSX.Element {
         <h2 className="relative mx-0 mb-4 text-left border-b-4 dark:border-neutral-700 max-w-max md:w-max ">
           {technologies.title}
         </h2>
+        <p className="mb-8 text-lg">{technologies.desc}</p>
       </div>
       <div className="flex flex-wrap w-full mb-24 -m-2">
         <ListItem>

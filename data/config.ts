@@ -4,7 +4,7 @@ export const meta = {
 };
 
 export const hero = {
-  title: "Hey there, I'm Lucas 👋 ",
+  title: "Hey, I'm Lucas 👋 ",
   desc: "I'm a front-end developer and designer, crafting clean and functional solutions."
 };
 
@@ -25,10 +25,10 @@ export const projects = {
       github: 'lucaspassini/react-meals'
     },
     {
-      title: '📊 expense-tracker',
+      title: '📊 react-tracker',
       description: 'An expense tracker web-app',
       link: 'https://passini-expensetracker.vercel.app',
-      github: 'lucaspassini/expense-tracker'
+      github: 'lucaspassini/react-tracker'
     }
   ]
 };
