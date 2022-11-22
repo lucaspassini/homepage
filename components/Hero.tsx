@@ -14,12 +14,12 @@ export default function Hero() {
   return (
     <div className="mb-12">
       <div className="flex flex-row items-center justify-between w-full">
-        <div className="relative w-16 h-16 rounded">
+        <div className="relative w-8 h-8 rounded">
           <Image
             src="/static/profile.png"
             layout="fixed"
-            height={90}
-            width={90}
+            height={44}
+            width={44}
             objectFit="contain"
             alt="Lucas Passini"
           />
