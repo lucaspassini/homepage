@@ -18,8 +18,8 @@ export default function Hero() {
           <Image
             src="/static/profile.png"
             layout="fixed"
-            height={44}
-            width={44}
+            height={40}
+            width={40}
             objectFit="contain"
             alt="Lucas Passini"
           />

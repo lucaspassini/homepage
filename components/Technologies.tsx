@@ -17,7 +17,7 @@ export default function Technologies() {
         </h2>
         <p className="mb-8 text-lg">{technologies.desc}</p>
       </div>
-      <div className="flex flex-wrap w-full -m-2 mb-36">
+      <div className="flex flex-wrap w-full mb-40 -m-2">
         <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
           <SiJavaScript />
           <p>JavaScript</p>
