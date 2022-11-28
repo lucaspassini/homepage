@@ -36,7 +36,10 @@ h3 {
   @apply text-base;
 }
 a {
-  @apply text-lightText dark:text-darkText;
+  @apply text-lightText dark:text-greyText;
+}
+p {
+  @apply dark:text-grey;
 }
 
 * {

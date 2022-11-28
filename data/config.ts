@@ -13,7 +13,7 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
-      title: '🏠 homepage',
+      title: '👨🏻‍💻 homepage',
       description: 'This personal homepage',
       link: 'https://lucaspassini.dev',
       github: 'lucaspassini/homepage'
