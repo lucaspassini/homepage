@@ -11,7 +11,7 @@ export default function Projects() {
       </div>
       <p className="text-lg">{projects.desc}</p>
       <div className="flex flex-col gap-8 mt-8 md:flex-row">
-        {projects.projects.map((item, index) => {
+        {projects.project.map((item: any, index: number) => {
           return (
             <div
               key={index}
