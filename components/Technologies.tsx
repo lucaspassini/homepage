@@ -15,7 +15,7 @@ export default function Technologies() {
         <h2 className="relative mx-0 mb-4 text-left border-b-4 dark:border-neutral-700 max-w-max md:w-max ">
           {technologies.title}
         </h2>
-        <p className="mb-8 text-lg">{technologies.desc}</p>
+        <p className="mb-4 text-lg">{technologies.desc}</p>
       </div>
       <div className="flex flex-wrap w-full mb-40 -m-2">
         <span className="flex items-center px-3 py-1 mt-2 space-x-2 duration-30">
