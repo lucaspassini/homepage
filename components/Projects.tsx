@@ -10,7 +10,7 @@ export default function Projects() {
         </h2>
       </div>
       <p className="text-lg">{projects.desc}</p>
-      <div className="flex flex-col gap-8 mt-4 md:flex-row">
+      <div className="flex flex-col gap-4 mt-4 md:flex-row">
         {projects.project.map((item: any, index: number) => {
           return (
             <div
