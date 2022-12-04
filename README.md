@@ -3,7 +3,7 @@
   
 # homepage [![Author](https://img.shields.io/badge/author-lucaspassini-lightgrey)](https://github.com/lucaspassini) [![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/stargazers) [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/network/members)
 
-<img src="https://user-images.githubusercontent.com/47937044/204661600-d257f28b-e533-4719-82a5-491e7823b6ac.png" width="700" alt="homepage dark" />
+<img src="https://user-images.githubusercontent.com/47937044/205523084-321ab8f6-d15f-4559-8507-1dae6e52c844.png" width="700" alt="homepage dark" />
 
 ## About
 
