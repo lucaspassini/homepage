@@ -15,7 +15,7 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="p-6 pt-4 mb-4 transition-all border rounded-lg bg-lightCard hover:-translate-y-1 hover:scale-10 duration-30 border-opacity-20 border-greyBorder dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg"
+              className="p-6 pt-4 mb-4 transition-all border rounded-xl bg-lightCard border-opacity-20 border-greyBorder dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg"
             >
               <h3 className="mb-1 decoration-zinc-500">{item.title}</h3>
               <p className="text-sm">{item.description}</p>
