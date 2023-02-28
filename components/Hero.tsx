@@ -27,7 +27,7 @@ export default function Hero() {
         <button
           aria-label="Toggle Dark Mode"
           type="button"
-          className="flex items-center justify-center transition-all border rounded-lg bg-lightCard w-9 h-9 dark:bg-neutral-800 border-opacity-20 border-greyBorder"
+          className="flex items-center justify-center transition-all border-2 rounded-lg bg-lightCard w-9 h-9 dark:bg-neutral-800 border-opacity-20 border-greyBorder"
           onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
         >
           {mounted && (
@@ -57,7 +57,7 @@ export default function Hero() {
           )}
         </button>
       </div>
-      <span className="inline-block px-2 py-1 mt-16 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg whitespace-nowrap bg-lightCard border-opacity-20 border-greyBorder hover:bg-zinc-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 dark:text-white ">
+      <span className="inline-block px-2 py-1 mt-16 text-sm font-medium leading-none text-center text-gray-700 align-baseline border-2 rounded-lg whitespace-nowrap bg-lightCard border-opacity-20 border-greyBorder hover:bg-zinc-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 dark:text-white ">
         <Link
           href="https://www.google.com.br/maps/place/Itatiba,+State+of+S%C3%A3o+Paulo/@-22.9972518,-46.8994737,12z/data=!4m5!3m4!1s0x94cf2a851d59a719:0x1993f2010972ec6d!8m2!3d-23.0116344!4d-46.8375899"
           className="flex items-center h-5 gap-2 dark:text-greyText"
