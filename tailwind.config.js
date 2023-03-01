@@ -14,9 +14,6 @@ module.exports = {
         lightText: '#333333',
         darkText: '#FFFFFF',
         greyText: '#E5E5E5',
-        lightBorder: '#1A202C',
-        darkBorder: '#A4A5A7',
-        greyBorder: '#6f6f6f',
         lightCard: '#FFFF'
       }
     }

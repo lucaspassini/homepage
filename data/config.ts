@@ -32,20 +32,20 @@ export const projects: Projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   project: [
     {
-      title: '👨🏻‍💻 homepage',
-      description: 'This personal homepage',
+      title: 'homepage',
+      description: 'This personal homepage.',
       link: 'https://lucaspassini.dev',
       github: 'lucaspassini/homepage'
     },
     {
-      title: '🍝 react-meals',
-      description: 'A food ordering web-app',
+      title: 'react-meals',
+      description: 'A food ordering front-end.',
       link: 'https://passini-reactmeals.vercel.app',
       github: 'lucaspassini/react-meals'
     },
     {
-      title: '📊 react-tracker',
-      description: 'An expense tracker web-app',
+      title: 'react-tracker',
+      description: 'Expense tracker front-end.',
       link: 'https://passini-expensetracker.vercel.app',
       github: 'lucaspassini/react-tracker'
     }
