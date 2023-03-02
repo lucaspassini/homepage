@@ -23,7 +23,7 @@ export default function Projects() {
           />
           <h3 className="mb-1 decoration-zinc-500">homepage</h3>
           <p className="text-sm">lucaspassini/homepage</p>
-          <div className="flex flex-wrap pt-8 pb-2 -m-4">
+          <div className="flex flex-wrap pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
               href={`https://github.com/lucaspassini/homepage`}
               className="flex px-3 py-1"
@@ -38,6 +38,12 @@ export default function Projects() {
                 alt="Link icon"
               />
             </a>
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 whitespace-nowrap bg-sky-100 border-opacity-20 border-neutral-700 ">
+              ReactJS
+            </span>
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-700 ">
+              NextJS
+            </span>
           </div>
         </div>
 
@@ -45,7 +51,7 @@ export default function Projects() {
           <Image src={MealsIcon} width={40} height={40} alt="Meals Card Icon" />
           <h3 className="mb-1 decoration-zinc-500">react-meals</h3>
           <p className="text-sm">lucaspassini/react-meals</p>
-          <div className="flex flex-wrap pt-8 pb-2 -m-4">
+          <div className="flex flex-row pt-8 pb-2 -m-4 space-x-2">
             <a
               href={`https://github.com/lucaspassini/react-meals`}
               className="flex px-3 py-1"
@@ -60,6 +66,9 @@ export default function Projects() {
                 alt="Link icon"
               />
             </a>
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 bg-sky-100 whitespace-nowrap border-opacity-20 border-neutral-700 ">
+              ReactJS
+            </span>
           </div>
         </div>
 
@@ -72,7 +81,7 @@ export default function Projects() {
           />
           <h3 className="mb-1 decoration-zinc-500">react-tracker</h3>
           <p className="text-sm">lucaspassini/react-tracker</p>
-          <div className="flex flex-wrap pt-8 pb-2 -m-4">
+          <div className="flex flex-wrap pt-8 pb-2 -m-4 space-x-2">
             <a
               href={`https://github.com/lucaspassini/react-tracker`}
               className="flex px-3 py-1"
@@ -87,6 +96,9 @@ export default function Projects() {
                 alt="Link icon"
               />
             </a>
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 bg-sky-100 whitespace-nowrap border-opacity-20 border-neutral-700 ">
+              ReactJS
+            </span>
           </div>
         </div>
       </div>
