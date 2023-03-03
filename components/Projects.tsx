@@ -13,15 +13,15 @@ export default function Projects() {
         </h2>
       </div>
       <p className="text-lg">{projects.desc}</p>
-      <div className="flex flex-col gap-4 pt-4 mt-4 md:flex-row">
-        <div className="p-6 pt-4 mb-4 transition-all border rounded-3xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
+      <div className="flex flex-col gap-3 pt-4 mt-4 md:flex-row">
+        <div className="p-6 pt-4 mb-4 transition-all border rounded-2xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
           <Image
             src={HomepageIcon}
             width={40}
             height={40}
             alt="Homepage Card Icon"
           />
-          <h3 className="mb-1 decoration-zinc-500">homepage</h3>
+          <h3 className="mb-1 decoration-zinc-500">Homepage</h3>
           <p className="text-sm">lucaspassini/homepage</p>
           <div className="flex flex-wrap pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
@@ -47,9 +47,9 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="p-6 pt-4 mb-4 transition-all border rounded-3xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
+        <div className="p-6 pt-4 mb-4 transition-all border rounded-2xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
           <Image src={MealsIcon} width={40} height={40} alt="Meals Card Icon" />
-          <h3 className="mb-1 decoration-zinc-500">react-meals</h3>
+          <h3 className="mb-1 decoration-zinc-500">React Meals</h3>
           <p className="text-sm">lucaspassini/react-meals</p>
           <div className="flex flex-row pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
@@ -75,14 +75,14 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="p-6 pt-4 mb-4 transition-all border rounded-3xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
+        <div className="p-6 pt-4 mb-4 transition-all border rounded-2xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
           <Image
             src={TrackerIcon}
             width={40}
             height={40}
             alt="Tracker Card Icon"
           />
-          <h3 className="mb-1 decoration-zinc-500">react-tracker</h3>
+          <h3 className="mb-1 decoration-zinc-500">React Tracker</h3>
           <p className="text-sm">lucaspassini/react-tracker</p>
           <div className="flex flex-wrap pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
