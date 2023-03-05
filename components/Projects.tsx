@@ -21,7 +21,7 @@ export default function Projects() {
             height={40}
             alt="Homepage Card Icon"
           />
-          <h3 className="mb-1 decoration-zinc-500">Homepage</h3>
+          <h3 className=" decoration-zinc-500">Homepage</h3>
           <p className="text-sm">lucaspassini/homepage</p>
           <div className="flex flex-wrap pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
@@ -38,10 +38,10 @@ export default function Projects() {
                 alt="Link Icon"
               />
             </a>
-            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 whitespace-nowrap bg-sky-100 border-opacity-20 border-neutral-700 ">
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center align-baseline border-2 rounded-lg text-sky-800 whitespace-nowrap bg-sky-100 border-opacity-20 border-sky-800 ">
               ReactJS
             </span>
-            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-700 ">
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center align-baseline border-2 rounded-lg text-neutral-800 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-800 ">
               NextJS
             </span>
           </div>
@@ -49,7 +49,7 @@ export default function Projects() {
 
         <div className="p-6 pt-4 mb-4 transition-all border rounded-2xl bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 hover:drop-shadow-xl dark:hover:shadow-neutral-800 dark:shadow-lg">
           <Image src={MealsIcon} width={40} height={40} alt="Meals Card Icon" />
-          <h3 className="mb-1 decoration-zinc-500">React Meals</h3>
+          <h3 className="decoration-zinc-500">React Meals</h3>
           <p className="text-sm">lucaspassini/react-meals</p>
           <div className="flex flex-row pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
@@ -66,10 +66,10 @@ export default function Projects() {
                 alt="Link Icon"
               />
             </a>
-            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 bg-sky-100 whitespace-nowrap border-opacity-20 border-neutral-700 ">
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center align-baseline border-2 rounded-lg text-sky-800 bg-sky-100 whitespace-nowrap border-opacity-20 border-sky-700 ">
               ReactJS
             </span>
-            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-700 ">
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center align-baseline border-2 rounded-lg text-neutral-800 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-700 ">
               Vercel
             </span>
           </div>
@@ -82,7 +82,7 @@ export default function Projects() {
             height={40}
             alt="Tracker Card Icon"
           />
-          <h3 className="mb-1 decoration-zinc-500">React Tracker</h3>
+          <h3 className=" decoration-zinc-500">React Tracker</h3>
           <p className="text-sm">lucaspassini/react-tracker</p>
           <div className="flex flex-wrap pt-8 pb-2 mr-0 -m-4 space-x-2">
             <a
@@ -99,10 +99,10 @@ export default function Projects() {
                 alt="Link Icon"
               />
             </a>
-            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 bg-sky-100 whitespace-nowrap border-opacity-20 border-neutral-700 ">
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center align-baseline border-2 rounded-lg text-sky-800 bg-sky-100 whitespace-nowrap border-opacity-20 border-sky-700 ">
               ReactJS
             </span>
-            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg opacity-75 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-700 ">
+            <span className="inline-block px-2 py-1 mt-2 mb-2 text-sm font-medium leading-none text-center align-baseline border-2 rounded-lg text-neutral-800 whitespace-nowrap bg-stone-200 border-opacity-20 border-neutral-700 ">
               Vercel
             </span>
           </div>
