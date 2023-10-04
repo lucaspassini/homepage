@@ -63,7 +63,7 @@ export default function Hero() {
           className="flex items-center h-5 gap-2 dark:text-greyText"
         >
           <FaLocationArrow className="w-3" />
-          Itatiba, BR •
+          São Paulo, BR •
         </Link>
       </span>
       <h1 className="mt-4 mb-4 sm:text-3xl md:text-4xl">{hero.title}</h1>

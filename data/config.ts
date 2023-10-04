@@ -24,7 +24,7 @@ export const meta: Data = {
 
 export const hero: Data = {
   title: "Hey, I'm Lucas 👋 ",
-  desc: "I'm a front-end developer and designer, crafting clean and functional solutions."
+  desc: 'Developing and designing software, with a focus in crafting clean and functional solutions.'
 };
 
 export const projects: Projects = {
@@ -54,7 +54,7 @@ export const projects: Projects = {
 
 export const technologies: Data = {
   title: 'Technologies',
-  desc: 'I use a wide range of tools to resolve each problem in the most efficient way.'
+  desc: 'I use a wide range of tools to resolve each problem in the most efficient way, ensuring to deliver a seamless experience.'
 };
 
 export const contact: Contact = {

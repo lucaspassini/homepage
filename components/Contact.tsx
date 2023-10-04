@@ -35,21 +35,6 @@ export default function Stack() {
             />
           </a>
         )}
-
-        {contact.twitter && (
-          <a
-            href={`https://twitter.com/${contact.twitter}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/twitter.svg"
-              width={30}
-              height={30}
-              alt="Twitter icon"
-            />
-          </a>
-        )}
         {contact.linkedin && (
           <a
             href={`https://linkedin.com/in/${contact.linkedin}`}
@@ -61,6 +46,20 @@ export default function Stack() {
               width={30}
               height={30}
               alt="LinkedIn icon"
+            />
+          </a>
+        )}
+        {contact.twitter && (
+          <a
+            href={`https://twitter.com/${contact.twitter}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src="/static/icons/twitter.svg"
+              width={30}
+              height={30}
+              alt="Twitter icon"
             />
           </a>
         )}
