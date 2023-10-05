@@ -59,11 +59,11 @@ export default function Hero() {
       </div>
       <span className="inline-block px-2 py-1 mt-16 text-sm font-medium leading-none text-center text-gray-700 align-baseline border rounded-lg whitespace-nowrap bg-lightCard border-opacity-20 border-neutral-700 dark:border-neutral-700 hover:bg-zinc-200 dark:hover:bg-neutral-700 dark:bg-neutral-800 dark:text-white ">
         <Link
-          href="https://www.google.com.br/maps/place/Itatiba,+State+of+S%C3%A3o+Paulo/@-22.9972518,-46.8994737,12z/data=!4m5!3m4!1s0x94cf2a851d59a719:0x1993f2010972ec6d!8m2!3d-23.0116344!4d-46.8375899"
+          href="https://www.google.com.br/maps/place/Brasil/@-10.094237,-97.2053746,4z/data=!3m1!4b1!4m6!3m5!1s0x9c59c7ebcc28cf:0x295a1506f2293e63!8m2!3d-14.235004!4d-51.92528!16zL20vMDE1ZnI?entry=ttu"
           className="flex items-center h-5 gap-2 dark:text-greyText"
         >
           <FaLocationArrow className="w-3" />
-          São Paulo, BR •
+          Brazil •
         </Link>
       </span>
       <h1 className="mt-4 mb-4 sm:text-3xl md:text-4xl">{hero.title}</h1>
