@@ -8,7 +8,7 @@
 
 ## About
 
-My minimalist personal homepage.
+My minimalist homepage project, a clean and simple way to share my interests, skills, and creative work.
 
 ## Install
 
