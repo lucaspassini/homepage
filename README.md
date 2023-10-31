@@ -1,14 +1,14 @@
 
 <img src="public/static/favicon/favicon.ico" width="48"/>
   
-# homepage [![Author](https://img.shields.io/badge/author-lucaspassini-lightgrey)](https://github.com/lucaspassini) [![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/stargazers) [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/network/members)
+# Homepage [![Author](https://img.shields.io/badge/author-lucaspassini-lightgrey)](https://github.com/lucaspassini) [![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/stargazers) [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/network/members)
 
 
 <img src="https://github.com/lucaspassini/homepage/assets/47937044/84551b94-aa18-4656-8890-e9ad0c14aff6" width="700" alt="homepage dark" />
 
 ## About
 
-My minimalist personal homepage.
+My minimalist homepage project, a clean and simple way to share my interests, skills, and creative work.
 
 ## Install
 
