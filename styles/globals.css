@@ -8,7 +8,9 @@ body {
   margin: 0;
   min-height: 100vh;
   width: 100%;
-  font-family: 'Inter', -apple-system;
+  font-family: 'Inter', -apple-system, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
   @apply bg-white dark:bg-dark text-lightText dark:text-greyText;
   line-height: 1.5rem;
   -webkit-font-smoothing: antialiased;
